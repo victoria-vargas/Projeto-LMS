@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Turret+Road&display=swap");
+
+html{
+    margin: 15px;
+}
+body {
+    font-family: "Turret Road";
+    background: black;
+    color: white;
+    background-image: url("homepage1.jpg");
+     
+}
+.titulo {
+    text-align: top;
+    font-size: 15px;
+    padding: 10px;
+}
+.titulo {
+    text-align: top;
+    font-size: 50px;
+    padding: 20px;
+}
+.div {
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+}
+.subt {
+    text-align: top;
+    font-size: 25px;
+    padding: 20px;
+
+}
+.nav {
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.cabecalho {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 20px;
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li .cabeca {
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: skyblue ;
+    color: black;
+  }
+
+  footer {
+  align-items: baseline;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: lightgray;
+  display: block;
+  border-radius: 25px;
+}
+
+.table{
+    display: flex;
+    align-items: center;   
+    justify-content: space-around;
+
+}
+
